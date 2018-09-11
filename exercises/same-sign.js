@@ -9,6 +9,17 @@
 
 // Your code :
 
+function sameSign(x, y){
+    if ((x * y) > 0) {
+        return true
+    }
+    else if (x === y){
+        return true
+    }
+    else{
+        return false
+    }
+}
 //* Begin of tests
 const assert = require('assert')
 
