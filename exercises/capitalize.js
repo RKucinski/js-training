@@ -7,6 +7,15 @@
  *
  */
 
+ function capitalize(string){
+    let maj = string[0].toUpperCase()
+    let reste = string.slice(1)
+    reste = reste.toLowerCase()
+
+    return maj+reste
+
+ 
+    }
 
 //* Begin of tests
 const assert = require('assert')

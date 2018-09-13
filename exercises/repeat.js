@@ -8,6 +8,14 @@
  *
  */
 
+ function repeat(string, number){
+    let sum = ""
+    for (let i=0; i<number; i++){
+        sum+=string
+    }
+    return sum
+ }
+
 //* Begin of tests
 const assert = require('assert')
 

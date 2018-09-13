@@ -6,6 +6,14 @@
  *
  */
 
+ function sentence(array){
+
+    let str = array[0]
+    for (let i=0; i < (array.length-1); i++){
+        str = str + " " + array[(i+1)].toString()
+    }
+    return str
+ }
 
 //* Begin of tests
 const assert = require('assert')
